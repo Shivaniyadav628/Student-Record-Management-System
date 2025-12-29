@@ -80,7 +80,7 @@ def top_student():
         return
 
     top = max(students, key=lambda s: int(s['marks']))
-    print("🏆 Top Performing Student")
+    print(" Top Performing Student")
     print(f"Roll No : {top['roll_no']}")
     print(f"Name    : {top['name']}")
     print(f"Class   : {top['class']}")
@@ -113,7 +113,7 @@ def sort_by_marks():
         return
 
     sorted_students = sorted(students, key=lambda s: int(s['marks']), reverse=True)
-    print("\n📊 Students Sorted by Marks (High → Low)")
+    print("\n Students Sorted by Marks (High → Low)")
     for s in sorted_students:
         print(f"{s['roll_no']} | {s['name']} | {s['marks']}")
     print()
