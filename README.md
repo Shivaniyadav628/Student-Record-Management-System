@@ -19,8 +19,9 @@ The "Student Record Management System" helps manage student data such as name, r
   
   Calculate average marks  
   Identify the top-performing student  
-  Listed students scoring above user-defined mark
-  sorted student records based on marks(descending order)
+  sorted student records based on marks(descending order)  
+  Filter Records
+ 
 
   File Handling Operations
   
